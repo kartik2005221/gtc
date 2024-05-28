@@ -1,0 +1,95 @@
+.social-card {
+	height: fit-content;
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	background: #1a1f2c;
+	padding: 20px 25px;
+	border-radius: 14px;
+  }
+  .Btn {
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	background-color: transparent;
+	position: relative;
+	border-radius: 7px;
+	cursor: pointer;
+	transition: all 0.3s;
+  }
+  
+  .svgContainer {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: transparent;
+	backdrop-filter: blur(0px);
+	letter-spacing: 0.8px;
+	border-radius: 10px;
+	transition: all 0.3s;
+	border: 1px solid rgba(156, 156, 156, 0.466);
+	z-index: 2;
+  }
+  
+  .BG {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #181818;
+	z-index: 1;
+	border-radius: 10px;
+	pointer-events: none;
+	transition: all 0.3s;
+	font-size: 0px;
+  }
+  .github .BG {
+	background: #181818;
+  }
+  .twitter-x .BG {
+	background: #181818;
+  }
+  .whatsapp .BG {
+	background: #25d366;
+  }
+  .reddit .BG {
+	background: #ff4500;
+  }
+  .instagram .BG {
+	/* background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);; */
+	background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+                radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+                linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  }
+  .yt .BG {
+	background: #ff0000;
+  }
+  .tele .BG {
+	background: #3390ec;
+  }
+  .Btn:hover .BG {
+	transform: scale(1.5);
+	/* transform-origin: bottom; */
+	font-size: 20px;
+	color: white;
+  }
+  
+  .Btn:hover .svgContainer {
+	border: 1px solid rgba(216, 216, 216, 0.466);
+	background-color: rgba(209, 209, 209, 0.466);
+	backdrop-filter: blur(4px);
+  }
+  

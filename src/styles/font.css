@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'gtcfont';
+	src: url('../fonts/PRICEDOWN/pricedown.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+@font-face {
+	font-family: 'hackfont';
+	src: url('../fonts/HACKED/HACKED.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+.kfont {
+	font-family: 'gtcfont', sans-serif;
+}
+  
+.k2font{
+	font-family: 'hackfont', sans-serif;
+}

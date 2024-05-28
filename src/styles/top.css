@@ -1,0 +1,21 @@
+.ktopbutton{
+	border: none;
+	display: none;
+	cursor: pointer;
+	transition-duration: 0.3s;
+	overflow: hidden;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+  }
+  
+.svgIcon {
+	width: 12px;
+	transition-duration: 0.3s;
+  }
+  
+.svgIcon path {
+	fill: white;
+  }
+ 
